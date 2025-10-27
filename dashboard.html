@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لوحة التحكم - Vee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dashboard">
+  <header>
+    <h1>لوحة التحكم</h1>
+    <nav>
+      <button onclick="logout()">تسجيل الخروج</button>
+    </nav>
+  </header>
+  <main>
+    <h2>مرحبًا <span id="userDisplay"></span></h2>
+    <p>عدد نقاطك: <span id="points">0</span></p>
+    <button onclick="addPoints()">شحن النقاط</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
